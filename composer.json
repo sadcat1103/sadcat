@@ -1,0 +1,21 @@
+{
+    "name": "sadcat/test",
+    "description": "悲伤的猫 - 测试",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sadcat",
+            "email": "240444895@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sadcat\\SayHello\\": "src/Sadcat/SayHello"
+        }
+    }
+}
